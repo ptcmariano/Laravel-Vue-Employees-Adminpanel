@@ -14,6 +14,7 @@ class UserSeed extends Seeder
         $items = [
             
             ['id' => 1, 'name' => 'Admin', 'email' => 'admin@admin.com', 'password' => '$2y$10$Rw3AZN/Zqen4x4GaIcy8tupBMsSdzyT4BePdXAHxvD9VNUpS6G0Pe', 'role_id' => 1, 'remember_token' => '',],
+            ['id' => 2, 'name' => 'Admin', 'email' => 'ad@ad.ad', 'password' => bcrypt('123'), 'role_id' => 1, 'remember_token' => '',],
 
         ];
 
